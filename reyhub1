@@ -991,9 +991,9 @@ end
 local function Notify(Message)
     if Fluent and Message then
         Fluent:Notify({
-            Title = "Open Aimbot",
+            Title = "Rey Hub",
             Content = Message,
-            SubContent = "By @ttwiz_z",
+            SubContent = "By @d1.rey.1",
             Duration = 1.5
         })
     end
